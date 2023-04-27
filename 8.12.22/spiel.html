@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+  </head>
+  <!--
+    Die Methode starteSpiel des window-Objekts wird in der zugehörigen html-Seite im body-Tag mittels onload="starteSpiel()" aufgerufen
+    Die onload Eigenschaft das bodys garantiert, dass die Methode erst aufgerufen wird, wenn alle Elemente des bodys (so auch die Bilder)
+    geladen wurden.
+  -->
+  <body onload="starteSpiel()">
+      <canvas id="Canvas" width="1080" height="720"></canvas>
+
+      <script src="spiel.js"></script>
+  </body>
+</html>
